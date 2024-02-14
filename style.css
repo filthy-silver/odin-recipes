@@ -2,6 +2,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:crimson;
     background-color: blanchedalmond;
+    outline: 2px solid red;
 }
 
 h1, h2{
@@ -27,4 +28,12 @@ li{
     color: black;
     line-height: 16px;
     padding: 12px;
+}
+
+li:hover{
+    color:darkred;
+}
+
+link:hover{
+    color:aquamarine
 }
